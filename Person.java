@@ -11,6 +11,13 @@ public class Person {
         return name;
     }
 
+    @Override
+    public String toString() {
+            // TODO Auto-generated method stub
+            return "Person{name='" + name + "', age=" + age + "}";
+    }
+    
     public int getAge() {
         return age;
     }
+}
